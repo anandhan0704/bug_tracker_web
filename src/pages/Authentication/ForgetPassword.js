@@ -18,10 +18,6 @@ import { userForgetPassword } from "../../store/actions";
 // import profile from "../../assets/images/bg.png";
 import logoLight from "../../assets/images/logo-light.png";
 import ParticlesAuth from "../AuthenticationInner/ParticlesAuth";
-import { loadAnimation } from "lottie-web";
-import { defineLordIconElement } from "lord-icon-element";
-// register lottie and define custom element
-defineLordIconElement(loadAnimation);
 
 const ForgetPasswordPage = props => {
   const dispatch = useDispatch();
@@ -60,7 +56,7 @@ document.title ="Reset Password | Velzon - React Admin & Dashboard Template";
                     <img src={logoLight} alt="" height="20" />
                   </Link>
                 </div>
-                <p className="mt-3 fs-15 fw-medium"></p>
+                <p className="mt-3 fs-15 fw-medium">Premium Admin & Dashboard Template</p>
               </div>
             </Col>
           </Row>

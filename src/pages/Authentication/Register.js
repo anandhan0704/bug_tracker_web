@@ -87,7 +87,7 @@ const Register = () => {
                                             <img src={logoLight} alt="" height="20" />
                                         </Link>
                                     </div>
-                                    <p className="mt-3 fs-15 fw-medium"></p>
+                                    <p className="mt-3 fs-15 fw-medium">Premium Admin & Dashboard Template</p>
                                 </div>
                             </Col>
                         </Row>

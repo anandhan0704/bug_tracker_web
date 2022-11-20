@@ -115,7 +115,6 @@ const Login = (props) => {
                                             <img src={logoLight} alt="" height="20" />
                                         </Link>
                                     </div>
-                                    <p className="mt-3 fs-15 fw-medium"></p>
                                 </div>
                             </Col>
                         </Row>
@@ -156,11 +155,7 @@ const Login = (props) => {
                                                         <FormFeedback type="invalid">{validation.errors.email}</FormFeedback>
                                                     ) : null}
                                                 </div>
-
                                                 <div className="mb-3">
-                                                    <div className="float-end">
-                                                        <Link to="/forgot-password" className="text-muted">Forgot password?</Link>
-                                                    </div>
                                                     <Label className="form-label" htmlFor="password-input">Password</Label>
                                                     <div className="position-relative auth-pass-inputgroup mb-3">
                                                         <Input
@@ -178,7 +173,7 @@ const Login = (props) => {
                                                         {validation.touched.password && validation.errors.password ? (
                                                             <FormFeedback type="invalid">{validation.errors.password}</FormFeedback>
                                                         ) : null}
-                                                        {/* <button className="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted" type="button" id="password-addon"><i className="ri-eye-fill align-middle"></i></button> */}
+                                                        <button className="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted" type="button" id="password-addon"><i className="ri-eye-fill align-middle"></i></button>
                                                     </div>
                                                 </div>
                                                 <div className="mt-4">

@@ -12,8 +12,8 @@ const BreadCrumb = ({ title, pageTitle }) => {
 
                         <div className="page-title-right">
                             <ol className="breadcrumb m-0">
-                                {/* <li className="breadcrumb-item"><Link to="#">{pageTitle}</Link></li> */}
-                                {/* <li className="breadcrumb-item active">{title}</li> */}
+                                <li className="breadcrumb-item"><Link to="#">{pageTitle}</Link></li>
+                                <li className="breadcrumb-item active">{title}</li>
                             </ol>
                         </div>
 

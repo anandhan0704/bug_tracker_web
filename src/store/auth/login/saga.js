@@ -38,7 +38,7 @@ function* loginUser({ payload: { user, history } }) {
       sessionStorage.setItem("authUser", JSON.stringify(response));
       if (response.status === "success") {
         yield put(loginSuccess(response));
-        history.push("/dashboard-projects");
+        history.push("/dashboard");
       } else {
         yield put(apiError(response));
       }
